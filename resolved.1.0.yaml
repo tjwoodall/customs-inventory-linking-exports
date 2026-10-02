@@ -81,11 +81,11 @@ paths:
           application/xml:
             examples:
               consolidationRequest:
-                $ref: '#/components/examples/InventoryLinkingConsolidationRequestExample'
+                $ref: "#/components/examples/InventoryLinkingConsolidationRequestExample"
               movementRequest:
-                $ref: '#/components/examples/InventoryLinkingMovementRequestExample'
+                $ref: "#/components/examples/InventoryLinkingMovementRequestExample"
               queryRequest:
-                $ref: '#/components/examples/InventoryLinkingQueryRequestExample'
+                $ref: "#/components/examples/InventoryLinkingQueryRequestExample"
         required: true
       responses:
         "202":
